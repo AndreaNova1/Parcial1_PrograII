@@ -4,7 +4,6 @@ import java.util.Scanner;
 public class Main {
     static Calculadora calculadora = new Calculadora();
     static CalculadoraAvanzada calculadoraAv = new CalculadoraAvanzada();
-
     // menu
     public static void menu() {
         Scanner entrada = new Scanner(System.in);
@@ -20,6 +19,7 @@ public class Main {
             System.out.println("4) division");
             System.out.println("Ingresa una Opcion:");
             op = entrada.nextInt();
+
             switch (op) {
                 case 1:
                     calculadora.suma();
@@ -43,6 +43,7 @@ public class Main {
             }
         } while (op != 5);
     }
+
     public static void main(String[] args) {
         menu();
     }

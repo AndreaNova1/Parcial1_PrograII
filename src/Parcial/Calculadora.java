@@ -14,8 +14,8 @@ public class Calculadora {
         int k, numero;
         double resultado = 0;
         Scanner ingresar = new Scanner(System.in);
-        System.out.println("Capture 8 valores:");
-        for (k = 0; k < 8; k++) {
+        System.out.println("Puede realizar 3 sumas:");
+        for (k = 0; k < 3; k++) {
             System.out.println("Ingrese el primer numero");
             numero1 = ingresar.nextDouble();
 
@@ -24,7 +24,6 @@ public class Calculadora {
 
             resultado = numero1 + numero2;//contatenacion
             System.out.println("El resultado de la suma es" + resultado);
-
         }
     }
 
