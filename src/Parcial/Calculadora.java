@@ -19,4 +19,8 @@ public Calculadora(){
     operacion1=Integer.parseInt(JOptionPane.showInputDialog("Digite el primer valor:"));
 
     }
+    public void resta(){
+        System.out.println("prueba");
+
+    }
 }
