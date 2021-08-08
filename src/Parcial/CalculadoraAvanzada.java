@@ -7,6 +7,7 @@ public class CalculadoraAvanzada {
     double exponente;
     double resultado;
 
+
     public CalculadoraAvanzada() {
         base = 0;
         exponente = 0;
@@ -21,5 +22,14 @@ public class CalculadoraAvanzada {
             resultado = Math.pow(base, exponente);
             JOptionPane.showInputDialog(+base+"Elevado al exponente"+exponente+"el resultado es:");
         }
+    }
+    public void Raiz(){
+
+    }
+    public void Seno(){
+
+    }
+    public void Coseno(){
+
     }
 }
