@@ -1,5 +1,4 @@
 package Parcial;
-
 import javax.swing.*;
 
 public class Calculadora {
@@ -31,7 +30,7 @@ public class Calculadora {
         JOptionPane.showInputDialog("El resultado es" + resultado);
     }
 
-    public void multiplicacion() {
+    public void multiplicacion () {
         operacion1 = Integer.parseInt(JOptionPane.showInputDialog("Digite el primer valor:"));
         operacion2 = Integer.parseInt(JOptionPane.showInputDialog("Digite el segundo valor:"));
         resultado = operacion1 * operacion2;
