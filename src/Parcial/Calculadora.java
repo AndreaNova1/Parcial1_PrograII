@@ -23,7 +23,7 @@ public class Calculadora {
             numero2 = ingresar.nextDouble();
 
             resultado = numero1 + numero2;//contatenacion
-            System.out.println("El resultado de la suma es" + resultado);
+            System.out.println("El resultado de la suma es: " + resultado);
         }
     }
 
@@ -36,7 +36,7 @@ public class Calculadora {
             System.out.println("Ingrese el segundo numero");
             numero2=ingresar.nextDouble();
         resultado=numero1 - numero2;//contatenacion
-        System.out.println("El resultado de la resta es" + resultado);
+        System.out.println("El resultado de la resta es: " + resultado);
 
         }
     public void multiplicacion(){
@@ -48,7 +48,7 @@ public class Calculadora {
             System.out.println("Ingrese el segundo numero");
             numero2=ingresar.nextDouble();
             resultado=numero1 * numero2;//contatenacion
-            System.out.println("El resultado de la multiplicacion es" + resultado);
+            System.out.println("El resultado de la multiplicacion es: " + resultado);
 
         }
     public void division (){
@@ -60,7 +60,7 @@ public class Calculadora {
         System.out.println("Ingrese el segundo numero");
         numero2=ingresar.nextDouble();
         resultado=numero1 / numero2;//contatenacion
-        System.out.println("El resultado de la suma es" + resultado);
+        System.out.println("El resultado de la division es" + resultado);
 
     }
     public void mostrar(){
