@@ -11,7 +11,6 @@ public class Calculadora {
 
     //metodos
     public void suma() {
-        int k, numero;
         double resultado = 0;
         Scanner ingresar = new Scanner(System.in);
             System.out.println("Ingrese el primer numero");
