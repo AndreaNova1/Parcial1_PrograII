@@ -59,8 +59,8 @@ public class Main {
             int op;
             do {
                 System.out.printf("\n\n");
-                System.out.println("Bienvenido al menu de opciones");
-                System.out.println("Calculadora de operaciones basicas");
+                System.out.println("****Bienvenido al menu de opciones****");
+                System.out.println("****Calculadora de operaciones basicas***");
 
                 System.out.println("1) suma");
                 System.out.println("2) resta");
@@ -83,7 +83,7 @@ public class Main {
                         calculadora.division();
                         break;
                     case 5:
-                        System.out.println("Hasta pronto....");
+                        System.out.println("Fin del programa");
                         System.exit(0);
                         break;
                     default:
@@ -98,7 +98,7 @@ public class Main {
             int op;
             do {
                 System.out.printf("\n\n");
-                System.out.println("Calculadora de operaciones avanzadas");
+                System.out.println("***Calculadora de operaciones avanzadas***");
                 System.out.println("1) Potencia");
                 System.out.println("2) Raiz");
                 System.out.println("3) Seno");
@@ -119,7 +119,10 @@ public class Main {
                         calculadoraAv.Coseno();
                         break;
                     case 5:
-                        System.out.println("Hasta pronto....");
+                        calculadoraAv.Tangente();
+                        break;
+                    case 6:
+                        System.out.println("Fin del programa");
                         System.exit(0);
                         break;
                     default:
