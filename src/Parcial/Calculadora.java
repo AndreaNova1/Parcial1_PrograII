@@ -3,7 +3,7 @@ import javax.swing.*;
 import java.util.Random;
 import java.util.Scanner;
 public class Calculadora {
-
+//atributos private es exclusivo
     double numero1;
     double numero2;
     double resultado;
@@ -14,8 +14,6 @@ public class Calculadora {
         int k, numero;
         double resultado = 0;
         Scanner ingresar = new Scanner(System.in);
-        System.out.println("Puede realizar 3 sumas:");
-        for (k = 0; k < 3; k++) {
             System.out.println("Ingrese el primer numero");
             numero1 = ingresar.nextDouble();
 
@@ -25,7 +23,7 @@ public class Calculadora {
             resultado = numero1 + numero2;//contatenacion
             System.out.println("El resultado de la suma es: " + resultado);
         }
-    }
+
 
     public void resta(){
             Scanner ingresar = new Scanner(System.in);
@@ -59,6 +57,7 @@ public class Calculadora {
 
         System.out.println("Ingrese el segundo numero");
         numero2=ingresar.nextDouble();
+
         resultado=numero1 / numero2;//contatenacion
         System.out.println("El resultado de la division es" + resultado);
 
