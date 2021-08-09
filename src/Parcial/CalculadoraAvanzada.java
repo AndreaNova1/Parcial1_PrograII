@@ -21,7 +21,7 @@ public class CalculadoraAvanzada {
 
         resultado = Math.pow(numero1, numero2);
         System.out.println("La potencia obtenida es  " + resultado);
-        
+
         }
         public void Raiz () {
         System.out.println("Operacion de radicacion");
@@ -33,10 +33,10 @@ public class CalculadoraAvanzada {
 
         }
         public void Seno () {
-                System.out.println("Calculo del Seno de un triangulo rectangulo");
+                System.out.println("Calculo del Seno de un triangulo: ");
                 Scanner mostrar = new Scanner(System.in);
 
-                System.out.println("Ingrese el valor del cateto opuesto");
+                System.out.println("Ingrese el valor del cateto opuesto: ");
                 numero1 =mostrar.nextDouble();
 
                 System.out.println("Ingrese el valor de la hipotenusa");
@@ -49,6 +49,18 @@ public class CalculadoraAvanzada {
                 System.out.println(" ");
             }
         public void Coseno () {
+                System.out.println("Calculo del coseno de un triangulo");
+                Scanner mostrar= new Scanner(System.in);
 
+                System.out.println("Ingrese el valor del cateto adyacente: ");
+                numero1 =mostrar.nextDouble();
+
+                System.out.println("Ingrese el valor de la hipotenusa: ");
+                numero2 =mostrar.nextDouble();
+
+                double rad=Math.toRadians(numero1/numero2);
+                resultado=Math.cos(rad);
+                System.out.println("El coseno de un numero es: "+resultado);
         }
+        
     }
