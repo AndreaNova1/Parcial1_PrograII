@@ -96,7 +96,9 @@ public class Main {
             System.out.println("4) Coseno");
             System.out.println("5) Tangente");
             System.out.println("6) Regresar al menu principal") ;
+            System.out.println(" --------------------------------------------");
             System.out.println("Ingresa una Opcion:");
+            System.out.println(" --------------------------------------------");
             op = entrada.nextInt();
             switch (op) {
                 case 1:
