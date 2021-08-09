@@ -119,7 +119,7 @@ public class Main {
                         calculadoraAv.Coseno();
                         break;
                     case 5:
-                        System.out.println("Fin de los calculos");
+                        System.out.println("Hasta pronto....");
                         System.exit(0);
                         break;
                     default:
